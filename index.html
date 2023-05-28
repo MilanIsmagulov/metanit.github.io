@@ -64,6 +64,22 @@
         };
         readName();
 
+
+        const add3 = (
+            function(){
+                let count = 0;
+                const nested = function(){
+                    return count = count + 1;
+                    
+                };
+                return nested;
+            }
+        )()
+        console.log('Count is ' + add3());
+        console.log('Count is ' + add3());
+        console.log('Count is ' + add3());
+        console.log(add3.prototype);
+
     </script>
     <script src = "scripts/external.js"></script>
 </body>
