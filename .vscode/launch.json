@@ -7,8 +7,8 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Open index.html",
-            "file": "D:\\Repository\\metanit.github.io\\index.html"
+            "name": "Open message.html",
+            "file": "c:\\metanit.github.io\\message.html"
         }
     ]
 }
